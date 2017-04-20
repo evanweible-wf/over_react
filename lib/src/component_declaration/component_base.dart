@@ -398,6 +398,8 @@ abstract class UiProps extends Object
   String get testId {
     return getTestId();
   }
+  
+  Function componentFactoryOverride;
 
   /// Returns a new component with this builder's props and the specified children.
   ReactElement build([dynamic children]) {
